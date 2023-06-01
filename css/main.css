@@ -29,6 +29,10 @@ p {
     text-align: center;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 /* SECTION ONE */
 
 #buildbuttons {
