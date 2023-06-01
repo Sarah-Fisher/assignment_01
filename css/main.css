@@ -1,0 +1,97 @@
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Titan One', Georgia, 'Times New Roman', Times, serif;
+    background-color: #69bcdd;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 3px 3px #0c0c0c;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1 div:nth-child(1) {
+    color: #3db632;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 3px 3px #0c0c0c;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* SECTION ONE */
+
+#buildbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* SECTION 2 */
+
+#seestorybuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* BUTTONS */
+
+button {
+    border-radius: 40px;
+    font-size: 1.25rem;
+    padding: 25px;
+    color: #ffffff;
+    box-shadow: 0 8px 16px 0 #0c0c0c;
+}
+
+#noun1 {
+    background-color: purple;
+    border: purple;
+}
+
+#verb {
+    background-color: blue;
+    border: blue;
+}
+
+#adjective {
+    background-color: green;
+    border: green;
+}
+
+#noun2 {
+    background-color: orange;
+    border: orange;
+}
+
+#setting {
+    background-color: #e7576f;
+    border: #e7576f;
+}
+
+#playback {
+    background-color: #169c16;
+    border: #169c16;
+}
+
+#random {
+    background-color: red;
+    border: red;
+}
+
+#reset {
+    background-color: goldenrod;
+    border: goldenrod;
+}
+
